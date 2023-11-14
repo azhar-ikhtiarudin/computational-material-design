@@ -1,0 +1,13 @@
+COHPstartEnergy -10
+COHPendEnergy 10
+usebasisset pbeVaspFit2015
+basisfunctions C 2s 2p 3s
+basisfunctions H 1s
+basisfunctions O 2s 2p 3s
+
+gaussianSmearingWidth 0.03
+cohpbetween atom 1 and atom 4
+cohpbetween atom 1 and atom 2
+cohpbetween atom 2 and atom 4
+skipCOBI
+skipMadelungEnergy
